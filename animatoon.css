@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    background: rgb(36, 234, 251);
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    background: none;
+      border-radius: 100px;
+
+  }
+
+  ::-webkit-scrollbar-button {
+    background: none;
+    border-radius: 100px;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: none;
+    border-radius: 100px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #34bfd1;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: none;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 100px;
+} 
+
+.Titulo {
+    background-color: none;
+    border-color: none;
+    font-family:Fredoka one;
+    padding:  0px 0px 0px 0px;
+    font-size: 70px; 
+    margin-left: 600px;
+}
+
+.Titulo:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    transition: all .5s;
+}
+
+.buscar {
+    margin-left: 200px;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: none;
+    border: hidden;
+}
+
+.buscar:hover {
+    background-color: rgb(247, 248, 255);
+}
+
+
+.i {
+    background: white;
+    height: 32px;
+    border: hidden;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.perfil {
+    background: #000;
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 200px;
+}
+
+.perfil:hover {
+    background: white;
+    border-radius: 100px;
+    border-style: solid;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.body {
+    background-color:rgb(30, 199, 214); 
+    height: 1000px; 
+    border-radius: 10px;
+}
+
+.video {
+    margin-left: 50px; 
+    margin-top: 30px; 
+    width: 330px; 
+    height: 200px; 
+    cursor: pointer;
+}
+
+
+@media (max-width: 1034px) {
+    .buscar {
+        margin-left: 10px;
+        width: 500px;
+    }
+
+    .perfil {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 769px) {
+    .buscar {
+        margin-left: 10px;
+        width: 200px;
+    }
+
+    .perfil {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 427px) {
+    .buscar {
+        margin-left: 10px;
+        width: 200px;
+    }
+
+.Titulo{
+    font-size: 0px; 
+}
+
+    .perfil {
+        margin-left: 10px;
+    }
+
+    .video {
+        margin-left: 40px; 
+    }
+}
+
+@media (max-width: 376px) {
+    .buscar {
+        margin-left: 10px;
+        width: 200px;
+    }
+
+.Titulo{
+    font-size: 0px; 
+}
+
+    .perfil {
+        margin-left: 10px;
+    }
+
+    .video {
+        margin-left: 15px; 
+    }
+}
+
+@media (max-width: 321px) {
+    .buscar {
+        margin-left: 10px;
+        width: 200px;
+    }
+
+.Titulo{
+    font-size: 0px; 
+}
+
+    .perfil {
+        margin-left: 0px;
+    }
+
+    .video {
+        margin-left: 5px; 
+        width: 29px;
+
+    }
+}
